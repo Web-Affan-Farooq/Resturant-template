@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sehrish Farooq  |  clone</title>
+    <!-- <style>
+        body {
+            background-color: red;
+        }
+         @font-face {
+            font-family: futurak;
+            src: url(futurak.ttf);
+         }
+           .header {
+            width: 100%;
+            background-color:black;
+            padding:8px 20px;
+            height:80px;
+        }
+        .logo > img {
+            width:150px;
+        }
+        .menu > li {
+            display:inline-block;
+            color:white;
+            padding-left:50px;
+        } 
+        .menu > li > a {
+            color:white;
+            text-decoration:none;
+        }
+        .logo ,.right-side {
+            display:inline-block;
+        }
+        .menu {
+            padding-left:220px;
+            position:relative;
+            bottom:30px;
+        }
+        #b-1 {
+            width:120px;
+            height:50px;
+            border-radius:30px;
+            background-color:rgb(196, 26, 43);
+            color:aliceblue;
+        }
+        #b-2 {
+            width:120px;
+            height:50px;
+            border-radius:30px;
+            background-color:rgb(196, 26, 43);
+            color:aliceblue;
+        }
+          .banner > img {
+            width:100%;
+            height:600px;
+        }
+
+        /*section-1 start*/
+        .section-1 {
+            width:100%;
+            height:500px;
+            background-color: black;
+        }
+        .section-1 > h2 {
+            color:aliceblue;
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            margin:0px;
+            font-size:35px;
+        }
+        .section-1 > p {
+            color: grey;
+            text-align: center;
+        }
+        .section-1-images {
+            display: flex;
+        }
+        .section-1-img-1 {
+            margin:50px;
+            background-color: aliceblue;
+        }
+        .section-1-img-2 {
+            margin:50px;
+            background-color: aliceblue;
+        }        
+        .section-1-img-3 {
+            margin:50px;
+            background-color: aliceblue;
+        }
+        .section-1-img-1 > img {
+            width:90%;
+            height:50%;
+            padding-left:15px;
+            padding-top:10px;
+        }
+        .section-1-img-2 > img {
+            width:90%;
+            height:50%;
+            padding-left:15px;
+            padding-top:10px;
+        }
+        .section-1-img-3 > img {
+            width:90%;
+            height:50%;
+            padding-left:15px;
+            padding-top:10px;
+        }
+        #b-3 {
+            width:150px;
+            height:50px;
+            background-color: black;
+            border-radius: 30px;
+            border:1px solid grey ;
+            margin-left:70px;
+            margin-top:10px;
+            color:white;
+        }  
+        #b-4 {
+            width:150px;
+            height:50px;
+            background-color: black;
+            border-radius: 30px;
+            border:1px solid grey ;
+            margin-left:70px;
+            margin-top:10px;
+            color:white;
+        }  
+
+        #b-5 {
+            width:150px;
+            height:50px;
+            background-color: black;
+            border-radius: 30px;
+            border:1px solid grey ;
+            margin-left:70px;
+            margin-top:10px;
+            color:white;
+        }
+        .section-1 > h2 > span {
+            font-family: futurak;
+        }
+        .section-1 > h2 {
+            font-size:40px;
+        }
+        /*section-1 end*/
+
+        /*section-2 start*/
+        .section-2 {
+            background-color:rgb(20, 18, 20);
+        }
+        .section-2-header > h2 {
+            font-family:'Open Sans', sans-serif;
+            text-align:center;
+            margin:0px;
+        }
+        .section-2-header > p {
+            text-align:center;
+            color:grey;
+        }
+        .div-1 {
+            width:100%;
+            height:400px;
+            background-color: rgb(20, 18, 20);
+            display:flex;
+        }
+        .div-2 {
+            width:100%;
+            height:400px;
+            background-color: rgb(20, 18, 20);
+            display:flex;
+        }
+        .div-3 {
+            width:100%;
+            height:400px;
+            background-color: rgb(20, 18, 20);
+            display:flex;
+        }
+
+        .section-2-div-1-content {
+            padding:70px;
+        }
+        .section-2-div-1-content > h2 {
+            font-family:'Open Sans', sans-serif;
+        }
+        .section-2-div-1-image {
+            padding:70px;
+        }
+        .section-2-div-2-content {
+            padding:70px;
+        }
+        .section-2-div-2-image {
+            padding:70px;
+        }
+        .section-2-div-3-content {
+            padding:70px;
+        }
+        .section-2-div-3-image {
+            padding:70px;
+        }
+        /*section-2 end*/
+
+        /*section-3 start*/
+        .section-3 {
+            background-color: black;
+        }
+        .section-3-header {
+            text-align:center;
+        }
+        .section-3-images {
+            width:300px;
+            height:200px;
+        }
+        .s-3-child-1 {
+            align-items: center;
+            padding:50px;
+            text-align:center;
+        }
+        .s-3-child-2 {
+            align-items: center;
+            padding:50px;
+            text-align:center;
+        }
+        .s-3-child-3 {
+            align-items: center;
+            padding:50px;
+            text-align:center;
+        }
+        .s-3-child-4 {
+            align-items: center;
+            padding:50px;
+            text-align:center;
+        }
+        .s-3-child-5 {
+            align-items: center;
+            padding:50px;
+            text-align:center;
+        }
+        .s-3-child-6 {
+            align-items: center;
+            padding:50px;
+            text-align:center;
+        }
+        .s-3-child-7 {
+            align-items: center;
+            padding:50px;
+            text-align:center;
+
+        }
+        .s-3-child-8 {
+            align-items: center;
+            padding:50px;
+             text-align:center;
+        }
+        .s-3-child-9 {
+            align-items: center;
+            padding:50px;
+            text-align:center;
+
+        }
+        .main-1 {
+            width:100%;
+            height:500px;
+            /* background-color: green; */
+        }
+        .main-2 {
+            width:100%;
+            height:500px;
+            /* background-color: green; */
+        }
+        .main-3 {
+            width:100%;
+            height:500px;
+            /* background-color: green; */
+        }
+        .child-buttons {
+            width:150px;
+            height:50px;
+            border-radius: 30px;
+            background-color: black;
+            color:white;
+            border: 2px solid grey;
+        }
+        /*section-3 end*/
+
+
+        /*section-4 start*/
+        .section-4 {
+            background-color: rgb(20, 18, 20);
+        }
+        .section-4-header {
+            text-align:center;
+            color:white;
+        }
+        .section-4-image > img {
+            width:600px;
+            height:400px;
+            padding:30px;
+        }
+        .section-4-content {
+            padding-top:70px;
+            padding-left:60px;
+        }
+        .section-4-main {
+            display:flex;
+        }
+        /*section-4 end*/
+        /*section-5 start*/
+          .section-5-header > h1 {
+            margin:0px;
+        }
+        .section-5 {
+            width:100%;
+            height:1000px;
+            background-color:black;
+        }
+        .section-5-body {
+            padding-left:150px;
+        }
+        .s-5-main-1 {
+            display:flex;
+        }
+        .s-5-child-1 {
+            margin:20px;
+            padding:20px;
+            text-align: center;
+            background-color: white;
+            border-radius: 20px;
+        }
+        .s-5-child-2 {
+            margin:20px;
+            padding:20px;
+            text-align: center;
+            background-color: white;
+            border-radius: 20px;
+        }
+        .s-5-child-3 {
+            margin:20px;
+            padding:20px;
+            text-align: center;
+            background-color: white;
+            border-radius: 20px;
+        }
+        .s-5-main-2 {
+            display:flex;
+        }
+        .s-5-child-4 {
+            margin:20px;
+            padding:20px;
+            text-align: center;
+            background-color: white;
+             border-radius: 20px;
+        }
+        .s-5-child-5 {
+            margin:20px;
+            padding:20px;
+            text-align: center;
+            background-color: white;
+            border-radius: 20px;
+        }
+        .s-5-child-6 {
+            margin:20px;
+            padding:20px;
+            text-align: center;
+            background-color: white;
+            border-radius: 20px;
+        }
+        .s-5-main-3 {
+            display:flex;
+        }
+        .s-5-child-7 {
+            margin:20px;
+            padding:20px;
+            text-align: center;
+            background-color: white;
+             border-radius: 20px;
+        }
+        .s-5-child-8 {
+            margin:20px;
+            padding:20px;
+            text-align: center;
+            background-color: white;
+            border-radius: 20px;
+        }
+        .s-5-child-9 {
+            margin:20px;
+            padding:20px;
+            text-align: center;
+            background-color: white;
+            border-radius: 20px;
+        }
+        /*section-5 end*/
+        /*section-6 start*/
+        .section-6 {
+            background-color: rgb(20, 18, 20);
+            margin-top:0px;
+        }
+        .section-6-header {
+            text-align:center;
+            font-size:20px;
+            color:white;
+        }
+        .section-6-content {
+            display:flex;
+        }
+        #section-6-images {
+            width:200px;
+            height:250px;
+            margin-left:15px;
+            margin-right: 30px;
+        }
+        /*section-6 end*/
+
+        /*footer start*/
+        .footer {
+            background-color: black;
+            width:100%;
+            height:500px;
+            display:flex;
+        }
+        .contacts {
+            color:white;
+            width:40px;
+            height:40px;
+            background-color: red;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 20px;
+        }
+        /*footer end*/
+    </style> -->
+</head>
+<body>
+     <header class="header">
+        <div class="logo">
+            <img src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp">
+        </div>
+        <div class="right-side">
+            <ul class="menu">
+                <li class="nav-options"><a href="">Home</a></li>
+                <li class="nav-options"><a href="">About</a></li>                
+                <li class="nav-options"><a href="">Publications</a></li>                
+                <li class="nav-options"><a href="">Feedback</a></li>             
+                <li class="nav-options"><button id="b-1">Order-online</button></li>      
+                <li class="nav-options"><button id="b-2">Get the franchise</button></li>
+        </div>
+    </header>
+     <div class="banner">
+        <img src="banner.jpg">
+    </div>
+      <div class="section-1">
+        <br><br><br>
+        <h2>Welcome to <span style="font-family:futurak">Salt'n Pepper</span></h2>
+        <h2>Restaurants! Our Brands</h2>
+        <p>Please click our brands below for further information, reservations or to order online!</p>
+        <div class="section-1-images">
+            <div class="section-1-img-1"><img src="welcome-section-image-3.jpg" alt=""><button id="b-3">Order now</button></div>
+            <div class="section-1-img-2"><img src="welcome-section-img-2.jpg" alt=""><button id="b-4">Order now</button></div>                        
+            <div class="section-1-img-3"><img src="welcome-section-image-3.jpg" alt=""><button id="b-5">Order now</button></div>
+        </div>
+    </div>
+     <section class="section-2">
+        <div class="section-2-header">
+        <h2 style="color:white;">Welcome to <span style="font-size:40px; font-family:futurak;">salt 'n peper</span></h2>
+        <h2 style="color:white;">Resturants! Our brands</h2>
+        <p>Please click our brands below for further information, reservations or to order online!</p>
+        </div>
+    <div class="div-1">
+        <div class="section-2-div-1-content">
+            <div class="place"><p style="color:red; letter-spacing:13px; padding:20px; text-transform:uppercase;">Islamabad</p></div>
+            <div class="title" style="color:white;"><h2><span style=" font-size:40px; font-family:futurak;">Salt'n Pepper</span> Restaurant</h2></div>
+            <div class="address" style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> &nbsp;Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</div>
+            <br>
+            <div class="phone-number" style="color:grey;"><i class="fa-solid fa-phone"></i> &nbsp;Ph: 051-2604904-6</div>
+        </div>
+        <div class=" section-2-div-1-image">
+            <img src="Section-2-div-1.jpg" alt="">
+        </div>
+    </div>
+    <div class="div-2">
+        <div class="section-2-div-2-image">
+            <img src="section-2-div-2.jpg" alt="">
+        </div>
+        <div class="section-2-div-2-content">
+             <div class="place"><p style="color:red; letter-spacing:13px; padding:20px; text-transform:uppercase;">Faisalabad</p></div>
+             <div class="title" style="color:white;"><h2><span style=" font-size:40px; font-family:futurak;">Salt'n Pepper</span> Restaurant</h2></div>
+             <div class="address" style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> &nbsp;4-Kohinoor City, Faisalabad</div>
+             <br>
+             <div class="phone-number" style="color:grey;"><i class="fa-solid fa-phone"></i> &nbsp; Ph: 041-8711404</div>
+        </div>
+    </div>
+    <div class="div-3">
+        <div class="section-2-div-3-content">
+            <div class="place"><p style="color:red; letter-spacing:13px; padding:20px; text-transform:uppercase;">BAHAWALPUR</p></div>
+            <div class="title" style="color:white;"><h2><span style=" font-size:40px; font-family:futurak;">Salt'n Pepper</span> Restaurant</h2></div>
+            <div class="address" style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> &nbsp; D.C Chowk, opposite Commissioner House, Bahawalpur</div>
+            <br>
+            <div class="phone-number" style="color:grey;"><i class="fa-solid fa-phone"></i> &nbsp;Ph: 062-2740271-2</div>
+        </div>
+        <div class=" section-2-div-3-image">
+            <img src="Section-2-div-3.jpg" alt="">
+        </div>
+    </div>
+    </section>
+    <section class="section-3">
+        <div class="section-3-header">
+            <span style="font-size:40px; font-family:futurak; color:white;">Salt'n Pepper</span>
+            <br>
+            <span style="font-size:40px;font-family:'Open Sans', sans-serif; color:white;"> Express franchise</span>
+        </div>
+        <table>
+            <tr class="main-1">
+                <td class="s-3-child-1">
+                    <img src="child-1.jpg" alt=""class=section-3-images>
+                    <div>
+                    <div class="place"><p style="color:red; letter-spacing:10px; text-transform: uppercase; font-size:11px; margin:0px;">Packages mall</p></div>
+                    <div class="title"><h2 style="color:white;"><span style="font-family:futurak; font-size:20px;">Salt'n Pepper</span> Express</h2></div>
+                    <div class="address">
+                    <p style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> First Floor Packages Mall</p>
+                    <p style="color:grey;"><i class="fa-solid fa-phone"></i> Ph: 0333-0310534</p>
+                    </div>
+                    <div>
+                    <button class="child-buttons">Get directions</button>
+                    </div>
+                </td>
+                <td class="s-3-child-2">
+                    <img src="child-2.jpg" alt=""class=section-3-images>
+                    <div>
+                    <div class="place"><p style="color:red; letter-spacing:10px; text-transform: uppercase; font-size:11px; margin:0px;">Packages mall</p></div>
+                    <div class="title"><h2 style="color:white;"><span style="font-family:futurak; font-size:20px;">Salt'n Pepper</span> Express</h2></div>
+                    <div class="address">
+                    <p style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> First Floor Packages Mall</p>
+                    <p style="color:grey;"><i class="fa-solid fa-phone"></i> Ph: 0333-0310534</p>
+                    </div>
+                    <div>
+                    <button class="child-buttons">Get directions</button>
+                </td>
+                <td class="s-3-child-3">
+                    <img src="child-3.jpg" alt=""class=section-3-images>
+                    <div>
+                    <div class="place"><p style="color:red; letter-spacing:10px; text-transform: uppercase; font-size:11px; margin:0px;">Packages mall</p></div>
+                    <div class="title"><h2 style="color:white;"><span style="font-family:futurak; font-size:20px;">Salt'n Pepper</span> Express</h2></div>
+                    <div class="address">
+                    <p style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> First Floor Packages Mall</p>
+                    <p style="color:grey;"><i class="fa-solid fa-phone"></i> Ph: 0333-0310534</p>
+                    </div>
+                    <div>
+                    <button class="child-buttons">Get directions</button>
+                </td>
+            </tr>
+            <tr class="main-2">
+                <td class="s-3-child-4">
+                    <img src="child-4.jpg" alt=""class=section-3-images>
+                    <div>
+                    <div class="place"><p style="color:red; letter-spacing:10px; text-transform: uppercase; font-size:11px; margin:0px;">Packages mall</p></div>
+                    <div class="title"><h2 style="color:white;"><span style="font-family:futurak; font-size:20px;">Salt'n Pepper</span> Express</h2></div>
+                    <div class="address">
+                    <p style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> First Floor Packages Mall</p>
+                    <p style="color:grey;"><i class="fa-solid fa-phone"></i> Ph: 0333-0310534</p>
+                    </div>
+                    <div>
+                    <button class="child-buttons">Get directions</button>
+                </td>
+                <td class="s-3-child-5">
+                    <img src="child-5.jpg" alt=""class=section-3-images>
+                    <div>
+                    <div class="place"><p style="color:red; letter-spacing:10px; text-transform: uppercase; font-size:11px; margin:0px;">Packages mall</p></div>
+                    <div class="title"><h2 style="color:white;"><span style="font-family:futurak; font-size:20px;">Salt'n Pepper</span> Express</h2></div>
+                    <div class="address">
+                    <p style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> First Floor Packages Mall</p>
+                    <p style="color:grey;"><i class="fa-solid fa-phone"></i> Ph: 0333-0310534</p>
+                    </div>
+                    <div>
+                    <button class="child-buttons">Get directions</button>
+                </td>
+                <td class="s-3-child-6">
+                    <img src="child-6.jpg" alt=""class=section-3-images>
+                    <div>
+                    <div class="place"><p style="color:red; letter-spacing:10px; text-transform: uppercase; font-size:11px; margin:0px;">Packages mall</p></div>
+                    <div class="title"><h2 style="color:white;"><span style="font-family:futurak; font-size:20px;">Salt'n Pepper</span> Express</h2></div>
+                    <div class="address">
+                    <p style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> First Floor Packages Mall</p>
+                    <p style="color:grey;"><i class="fa-solid fa-phone"></i> Ph: 0333-0310534</p>
+                    </div>
+                    <div>
+                    <button class="child-buttons">Get directions</button>
+                </td>
+            </tr>
+            <tr class="main-3">
+                <td class="s-3-child-7">
+                    <img src="child-7.jpg" alt=""class=section-3-images>
+                    <div>
+                    <div class="place"><p style="color:red; letter-spacing:10px; text-transform: uppercase; font-size:11px; margin:0px;">Packages mall</p></div>
+                    <div class="title"><h2 style="color:white;"><span style="font-family:futurak; font-size:20px;">Salt'n Pepper</span> Express</h2></div>
+                    <div class="address">
+                    <p style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> First Floor Packages Mall</p>
+                    <p style="color:grey;"><i class="fa-solid fa-phone"></i> Ph: 0333-0310534</p>
+                    </div>
+                    <div>
+                    <button class="child-buttons">Get directions</button>
+                </td>
+                <td class="s-3-child-8">
+                    <img src="child-8.jpg" alt=""class=section-3-images>
+                    <div>
+                    <div class="place"><p style="color:red; letter-spacing:10px; text-transform: uppercase; font-size:11px; margin:0px;">Packages mall</p></div>
+                    <div class="title"><h2 style="color:white;"><span style="font-family:futurak; font-size:20px;">Salt'n Pepper</span> Express</h2></div>
+                    <div class="address">
+                    <p style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> First Floor Packages Mall</p>
+                    <p style="color:grey;"><i class="fa-solid fa-phone"></i> Ph: 0333-0310534</p>
+                    </div>
+                    <div>
+                    <button class="child-buttons">Get directions</button>
+                </td>
+                <td class="s-3-child-9">
+                    <img src="child-9.jpg" alt=""class=section-3-images>
+                    <div>
+                    <div class="place"><p style="color:red; letter-spacing:10px; text-transform: uppercase; font-size:11px; margin:0px;">Packages mall</p></div>
+                    <div class="title"><h2 style="color:white;"><span style="font-family:futurak; font-size:20px;">Salt'n Pepper</span> Express</h2></div>
+                    <div class="address">
+                    <p style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> First Floor Packages Mall</p>
+                    <p style="color:grey;"><i class="fa-solid fa-phone"></i> Ph: 0333-0310534</p>
+                    </div>
+                    <div>
+                    <button class="child-buttons">Get directions</button>
+                </td>
+            </tr>
+        </table>
+    </section>
+     <section class="section-4">
+        <div class="section-4-header">
+            <span style="font-size:40px; font-family:futurak;">Salt'n Pepper</span>
+            <br>
+            <span style="font-size:40px;font-family:'Open Sans', sans-serif;">  village franchise</span>
+        </div>
+        <div class="section-4-main">
+        <div class="section-4-image">
+            <img src="village-franchise.jpg" alt="">
+        </div>
+        <div class="section-4-content">
+              <div class="place"><p style="color:red; letter-spacing:10px; text-transform: uppercase; font-size:11px; margin:0px;">Gujranwala</p></div>
+              <div class="title"><h2 style="color:white;"><span style="font-family:futurak; font-size:20px;">Salt'n Pepper</span>village franchise</h2></div>
+              <div class="address">
+              <p style="color:grey;"><i class="fa-solid fa-location-crosshairs"></i> First Floor Packages Mall</p>
+              <p style="color:grey;"><i class="fa-solid fa-phone"></i> Ph: 0333-0310534</p>
+              </div>
+              <div>
+             <button class="child-buttons">Get directions</button>
+        </div>
+        </div>
+    </section>
+     <section class="section-5">
+        <div class="section-5-header">
+                <h1 style="color:white; font-size:40px; text-align:center;font-family:futurak;">Salt'n Pepper</h1>
+                <h1 style="color:white;text-align: center;"><span style="font-size:40px;">Express Franchises</span> (Opening Soon)</h1>
+        </div>
+        <div class="section-5-body">
+            <div class="s-5-main-1">
+                <div class="s-5-child-1">
+                    <div class="icon">
+                          <i class="fa-solid fa-location-dot" style="color:red;"></i>
+                    </div>
+                    <br>
+                    <div>
+                        <span style="color:red; letter-spacing:8px; font-size:13px;">OPENING SOON</span>
+                    </div>
+                    <div>
+                        <h2><span style="font-size:25px; font-family: futurak;">Salt'n peper</span> Express</h2>
+                        <h2>Al-Jalil Garden</h2>
+                        <h4>Sadhoke</h4>
+                    </div>
+                </div>
+                <div class="s-5-child-2">
+                    <div class="icon">
+                          <i class="fa-solid fa-location-dot" style="color:red;"></i>
+                    </div>
+                    <br>
+                    <div>
+                        <span style="color:red; letter-spacing:8px; font-size:13px;">OPENING SOON</span>
+                    </div>
+                    <div>
+                        <h2><span style="font-size:25px; font-family: futurak;">Salt'n peper</span> Express</h2>
+                        <h2>Al-Jalil Garden</h2>
+                        <h4>Sheikhupura</h4>
+                    </div>
+                </div>
+                <div class="s-5-child-3">
+                    <div class="icon">
+                          <i class="fa-solid fa-location-dot" style="color:red;"></i>
+                    </div>
+                    <br>
+                    <div>
+                        <span style="color:red; letter-spacing:8px; font-size:13px;">OPENING SOON</span>
+                    </div>
+                    <div>
+                        <h2><span style="font-size:25px; font-family: futurak;">Salt'n peper</span> Express</h2>
+                        <h2>Blue World City</h2>
+                        <h4>Rawalpindi</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="s-5-main-2">
+                <div class="s-5-child-4">
+                    <div class="icon">
+                          <i class="fa-solid fa-location-dot" style="color:red;"></i>
+                    </div>
+                    <br>
+                    <div>
+                        <span style="color:red; letter-spacing:8px; font-size:13px;">OPENING SOON</span>
+                    </div>
+                    <div>
+                        <h2><span style="font-size:25px; font-family: futurak;">Salt'n peper</span> Express</h2>
+                        <h4>Gujrat</h4>
+                    </div>
+                </div>
+                <div class="s-5-child-5">
+                    <div class="icon">
+                          <i class="fa-solid fa-location-dot" style="color:red;"></i>
+                    </div>
+                    <br>
+                    <div>
+                        <span style="color:red; letter-spacing:8px; font-size:13px;">OPENING SOON</span>
+                    </div>
+                    <div>
+                        <h2><span style="font-size:25px; font-family: futurak;">Salt'n peper</span> Express</h2>
+                        <h4>Sahiwal</h4>
+                    </div>
+                </div>
+                <div class="s-5-child-6">
+                    <div class="icon">
+                          <i class="fa-solid fa-location-dot" style="color:red;"></i>
+                    </div>
+                    <br>
+                    <div>
+                        <span style="color:red; letter-spacing:8px; font-size:13px;">OPENING SOON</span>
+                    </div>
+                    <div>
+                        <h2><span style="font-size:25px; font-family: futurak;">Salt'n peper</span> Express</h2>
+                        <h2>City Housing</h2>
+                        <h4>Gujrannwala</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="s-5-main-3">
+                <div class="s-5-child-7">
+                    <div class="icon">
+                          <i class="fa-solid fa-location-dot" style="color:red;"></i>
+                    </div>
+                    <br>
+                    <div>
+                        <span style="color:red; letter-spacing:8px; font-size:13px;">OPENING SOON</span>
+                    </div>
+                    <div>
+                        <h2><span style="font-size:25px; font-family: futurak;">Salt'n peper</span> Express</h2>
+                        <h2>City Housing</h2>
+                        <h4>Sialkot</h4>
+                    </div>
+                </div>
+                <div class="s-5-child-8">
+                    <div class="icon">
+                          <i class="fa-solid fa-location-dot" style="color:red;"></i>
+                    </div>
+                    <br>
+                    <div>
+                        <span style="color:red; letter-spacing:8px; font-size:13px;">OPENING SOON</span>
+                    </div>
+                    <div>
+                        <h2><span style="font-size:25px; font-family: futurak;">Salt'n peper</span> Express</h2>
+                        <h2>Fortress Stadium</h2>
+                        <h4>Lahore</h4>
+                    </div>
+                </div>
+                <div class="s-5-child-9">
+                    <div class="icon">
+                          <i class="fa-solid fa-location-dot" style="color:red;"></i>
+                    </div>
+                    <br>
+                    <div>
+                        <span style="color:red; letter-spacing:8px; font-size:13px;">OPENING SOON</span>
+                    </div>
+                    <div>
+                        <h2><span style="font-size:25px; font-family: futurak;">Salt'n peper</span> Express</h2>
+                        <h2>Al-Jalil Garden</h2>
+                        <h4>Sharqpur</4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="section-6">
+        <div class="section-6-header">
+            <h1>Social Feed</h1>
+        </div>
+        <div class="section-6-content">
+            <div id="section-6-images">
+                <img src="sf-1.jpg" alt="" width="200" height="200">
+            </div>
+            <div id="section-6-images">
+                <img src="sf-2.jpg" alt=""  width="200" height="200">
+            </div>
+            <div id="section-6-images">
+                <img src="sf-3.jpg" alt=""  width="200" height="200">
+            </div>
+            <div id="section-6-images">
+                <img src="sf-4.jpg" alt=""  width="200" height="200">
+            </div>
+            <div id="section-6-images">
+                <img src="sf-5.jpg" alt=""  width="200" height="200">
+            </div>
+        </div>
+    </section>
+     <footer class="footer">
+        <div class="f-div-1">
+            <img src="logo.jpg" alt="" width="140" height="65">
+            <br>
+            <p style="color:grey;">The Salt'n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.</p>
+            <br>
+            <p style="color:grey;">terms & conditions Privacy policy</p>
+        </div>
+        <div class="f-div-1">
+            <h4 style="color:white;">Site links</h4>
+            <p style="color:grey;">Home</p>
+            <p style="color:grey;">About us</p>
+            <p style="color:grey;">Publications</p>
+            <p style="color:grey;">Get a franchise</p>
+            <p style="color:grey;">Feedback</p>
+        </div>
+        <div class="f-div-1">
+            <h4 style="color:aliceblue">Contact</h4>
+            <p>Contact Us</p>
+            <p style="color:grey;">+92 42 358 509 30 (Head Office)</p>
+            <p style="color:grey;">+92 42 358 509 30 (Head Office)</p>
+            <p style="color:grey;">+92 42 111 100 678 (Delivery)</p>
+            <p style="color:grey;">+92 03 111 444 610 (Delivery)</p>
+            <p style="color:grey;">snpfood@brain.net.pk</p>
+            <p style="color:grey;">23-Usman Block, New GardenTown, Lahore, Pakistan</p>
+        </div>
+        <div class="f-div-1">
+            <h4 style="color:white;">Follow us</h4>
+            <ul id="contact-icons">
+                <li class="contacts"><i class="fa-brands fa-facebook-f"></i></li>
+                <li class="contacts"><i class="fa-brands fa-instagram"></i></li>
+                <li class="contacts"><i class="fa-brands fa-twitter"></i></li>
+            </ul>
+            <img src="app store.jpg" alt="" width="100" height="30">
+        </div>
+    </footer>
+    <hr>
+    <div class="copyright">
+        <p style="color:white;">&copy; 2024 salt'n peper resturant</p>
+    </div>
+</body>
+</html>
